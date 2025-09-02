@@ -97,7 +97,7 @@ export default function Index() {
         <View style={styles.subTextGroup}>
           <Text style={styles.subText}> Don&apos;t have an account?</Text>
           <TouchableOpacity>
-            <Pressable onPress={() => router.push("/Sign")}>
+            <Pressable onPress={() => router.push("/signin")}>
               <Text style={styles.subTextJoin}> Sign In</Text>
             </Pressable>
           </TouchableOpacity>

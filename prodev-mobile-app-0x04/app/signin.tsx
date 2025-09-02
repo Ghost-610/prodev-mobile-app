@@ -44,7 +44,7 @@ export default function Index() {
         </View>
 
         <TouchableOpacity style={styles.button}>
-          <Pressable onPress={() => router.push("/Sign")}>
+          <Pressable onPress={() => router.push("/signin")}>
             <Text style={styles.buttonText}>Sign in</Text>
           </Pressable>
         </TouchableOpacity>
@@ -90,7 +90,7 @@ export default function Index() {
         <View style={styles.subTextGroup}>
           <Text style={styles.subText}> Don&apos;t have an account?</Text>
           <TouchableOpacity>
-            <Pressable onPress={() => router.push("/Sign")}>
+            <Pressable onPress={() => router.push("/signin")}>
               <Text style={styles.subTextJoin}>Join now</Text>
             </Pressable>
           </TouchableOpacity>

@@ -45,7 +45,7 @@ export default function Index() {
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.transparentButton}>
-                   <Pressable onPress={() => router.push("/Sign")}>
+                   <Pressable onPress={() => router.push("/signin")}>
                     <Text style={{ ...styles.textSmall, color: "black" }}>
                       Sign In
                     </Text>

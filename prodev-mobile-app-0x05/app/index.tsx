@@ -45,7 +45,7 @@ export default function Index() {
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.transparentButton}>
-                   <Pressable onPress={() => router.push("/signin")}>
+                  <Pressable onPress={() => router.push("/signin")}>
                     <Text style={{ ...styles.textSmall, color: "black" }}>
                       Sign In
                     </Text>
@@ -53,7 +53,11 @@ export default function Index() {
                 </TouchableOpacity>
               </View>
               <View style={{ alignItems: "center", paddingVertical: 20 }}>
-                <Text style={{ color: "white" }}>Continue to home</Text>
+                  <TouchableOpacity>
+                <Pressable onPress={() => router.push("/(home)")}>
+                  <Text style={{ color: "white" }}>Continue to home</Text>
+                </Pressable>
+                </TouchableOpacity>
               </View>
             </View>
           </View>

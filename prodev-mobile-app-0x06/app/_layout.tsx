@@ -9,13 +9,11 @@ export default function RootLayout() {
       <Stack.Screen name="/" />
       <Stack.Screen name="join" />
       <Stack.Screen name="signin" />
-      <Stack.Screen name="(home)/index" />
       <Stack.Screen name="(home)/search" />
       <Stack.Screen name="(home)/saved" />
       <Stack.Screen name="(home)/inbox" />
       <Stack.Screen name="(home)/profile" />
-      <Stack.Screen name="details/[id]" />
-      <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+ 
     </Stack>
   );
 }
